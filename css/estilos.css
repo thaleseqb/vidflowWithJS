@@ -33,6 +33,7 @@ body {
     height: 80px;
     width: 100%;
     padding: 0 25px;
+    z-index: 1000;
 }
 
 .logo__item {
@@ -180,10 +181,11 @@ body {
     width: 90%;
 }
 
-/* .icones__corpo {
-    display: flex;
-    justify-content: space-between;
-} */
+.icones__corpo {
+    width: 15%;
+    width: 13rem; /* ajuste conforme necessário */
+    height: 0;
+}
 
 /* SECAO SUPERIOR */
 
@@ -233,7 +235,7 @@ body {
 
 .videos__container {
     color: black;
-    padding: 153px 20px 10px 20px;
+    padding: 70px 20px 10px 20px;
 }
 
 iframe{
